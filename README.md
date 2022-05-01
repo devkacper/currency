@@ -40,3 +40,11 @@ php artisan storage:link
 php artisan serve
 ```
 
+# Weryfikacja funkcjonalności
+
+Endpoint API:
+
+```bash
+POST: /api/currencies/store
+```
+

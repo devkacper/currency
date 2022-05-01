@@ -14,4 +14,4 @@ use App\Http\Controllers\Api\CurrencyController;
 |
 */
 
-Route::get('/currencies/store', [CurrencyController::class, 'store']);
+Route::post('/currencies/store', [CurrencyController::class, 'store']);
