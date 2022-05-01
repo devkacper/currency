@@ -48,3 +48,8 @@ Endpoint API:
 POST: /api/currencies/store
 ```
 
+Polecenie artisan:
+
+```bash
+php artisan currencies:store
+```
