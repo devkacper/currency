@@ -14,7 +14,7 @@ class CurrencyTest extends TestCase
      */
     public function testCurrencyStore()
     {
-        $currencies = NBPHelper::data()[0]['rates'];
+        $currencies = NBPHelper::data();
 
         $randomCurrency = $currencies[rand(0, 33)];
 

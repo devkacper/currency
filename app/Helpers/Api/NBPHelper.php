@@ -8,6 +8,6 @@ class NBPHelper
 {
     public static function data()
     {
-        return Http::get(config('api.nbp.endpoint'));
+        return Http::get(config('api.nbp.endpoint'))[0]['rates'];
     }
 }

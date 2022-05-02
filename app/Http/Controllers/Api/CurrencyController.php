@@ -17,7 +17,7 @@ class CurrencyController extends Controller
     public function store()
     {
         try {
-            $rates = NBPHelper::data()[0]['rates'];
+            $rates = NBPHelper::data();
 
             foreach($rates as $rate)
             {
